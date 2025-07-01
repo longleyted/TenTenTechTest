@@ -3,10 +3,10 @@
 
 ## Contents
 
-Notable things - Things to consider
-Requirements - what I did and didn't do
-Self feedback - What I think I did well on and what I could have improved on
-Notable things pt. 2 - `Its a secret` 
+1. Notable things - Things to consider
+2. Requirements - what I did and didn't do
+3. Self feedback - What I think I did well on and what I could have improved on
+4. Notable things pt. 2 - `Its a secret` 
 
 ## Notable things
 
