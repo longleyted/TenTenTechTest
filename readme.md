@@ -12,8 +12,6 @@
 
 1. I ran out of time before managing to finish the full list of scenarios.
 
-As a result of this, I have made notDone.spec.ts which includes the remainder of the scenarios and how I would make them given I had the actual locators for error messages and such.
-
 2. Before I registered, I created tests for screens that aren't in scope for the project because I appreciate the practise and hope my effort is appreciated also. I've timeboxed these efforts to a couple of hours in one evening. 
 
 3. No bdd
