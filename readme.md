@@ -64,4 +64,20 @@ I could have managed my time a LOT better by ensuring I acquired / made note of 
 
 ## Notable things pt2
 
-I have made another branch with tests that I have missed called infiniteTime. I registered using a different email to do this, but it is to note that the main branch is the work I managed to complete within 2 hours. 
+I was planning on making another branch called 'infiniteTime' and adding scenarios that I created after my first 2 hours had expired (by registering as a different user) but after some more time I realised I only really would have added one test....
+
+```
+test('Mandatory fields are required dialog appears ', async ({loginPage, calculationPage, page}) => {
+    await loginPage.login();
+    await expect(calculationPage.selectInterestRateDropdown).toBeVisible();    
+    await calculationPage.calculateButton.click();
+    page.on('dialog', dialog => {
+        expect(dialog.message()).toBe('Please fill in all fields')
+    });
+});
+```
+
+This is because I would be raising a number of bugs off the back of these requirements:
+Clear error messages should be displayed to guide users in case of missing or incorrect inputs.
+The application should be responsive and user-friendly.
+All input fields (principal amount, interest rate, duration and consent) are mandatory.
