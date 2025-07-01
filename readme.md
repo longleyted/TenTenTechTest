@@ -28,19 +28,19 @@ Before writing any code, I have decided to use POM instead of Screenplay. This i
 
 Please read Self feedback for explanations as to why I didn't manage to create tests for some requirements.
 
-Tests created for: 
-The application should provide options to choose the duration for interest calculation: Daily, Monthly, and Yearly.
-Users should be able to input the principal amount.
-Users should be able to select the interest rate from a predefined list of rates up to 15%.
-The application should calculate the correct interest based on the selected duration, principal amount, and interest rate.
-The application should display the calculated interest and the total amount including interest.
+## Tests created for: 
+1. The application should provide options to choose the duration for interest calculation: Daily, Monthly, and Yearly.
+2. Users should be able to input the principal amount.
+3. Users should be able to select the interest rate from a predefined list of rates up to 15%.
+4. The application should calculate the correct interest based on the selected duration, principal amount, and interest rate.
+5. The application should display the calculated interest and the total amount including interest.
 
-Tests not created for (due to time constraints):
-All input fields (principal amount, interest rate, duration and consent) are mandatory.
-The application should inform the user if any field is left empty or not selected.
-For simplicity, the calculated interest and total amount should be rounded to two decimal places.
-The application should be responsive and user-friendly.
-Clear error messages should be displayed to guide users in case of missing or incorrect inputs.
+## Tests not created for (due to time constraints):
+1. All input fields (principal amount, interest rate, duration and consent) are mandatory.
+2. The application should inform the user if any field is left empty or not selected.
+3. For simplicity, the calculated interest and total amount should be rounded to two decimal places.
+4. The application should be responsive and user-friendly.
+5. Clear error messages should be displayed to guide users in case of missing or incorrect inputs.
 
 ## Self feedback
 
