@@ -1,4 +1,9 @@
-#### TTTT
+### Setup
+
+1. npm install
+2. go to config.json > change #EMAIL and #PASSWORD to working credentials
+3. npx playwright test
+
 ### TenTenTechTest
 
 ## Contents
