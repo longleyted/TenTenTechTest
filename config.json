@@ -1,0 +1,6 @@
+{
+    "workers": 1, 
+    "baseUrl": "http://3.8.242.61",
+    "email": "#EMAIL",
+    "password": "#PASSWORD"
+}
